@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushic | Japanese Restaurant</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Start reservation -->
+    <div class="reservation" id="reservation">
+        <!-- <i id="closeResrv" class="fas fa-bars fa-times"></i> -->
+        <i id="closeResrv" class="fa-solid fa-x"></i>
+
+        <div class="res-bg">
+            <div class="text">
+                <h3>Book a Table</h3>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Your Number">
+                <input type="email" placeholder="Your Email">
+                <input type="text" placeholder="How Many">
+                <input type="date" placeholder="Booking Date">
+                <input type="time" placeholder="Time">
+                <textarea name="" id="" cols="30" rows="2" placeholder="Add A Special Reaquest (Optional)"></textarea>
+            </form>
+            <button class="btn resvBtn">Find Table</button>
+        </div>
+    </div>
+    <!-- End reservation -->
+
+    <!-- Start Header -->
+    <header class="header" id="header">
+        <nav>
+            <a href="#" class="logo"><img src="./images/logo-sushic.png" alt=""></a>
+            <i id="openMenu" class="fa-solid fa-bars"></i>
+            <i id="book" class="fa-solid fa-utensils resvBtn"></i>
+            <div class="menu links" id="links">
+                <ul>
+                    <li class="link active"><a href="#home">Home</a></li>
+                    <li class="link"><a href="#about">About</a></li>
+                    <li class="link"><a href="#menu">Menu</a></li>
+                    <li class="link"><a href="#clients">Clients</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" class="btn resvBtn">Reservation</a>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Home -->
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1 bg-overlay">
+                    <div class="content">
+                        <h3>Made With Love</h3>
+                        <h1>Hot and Ready to Serve</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate sit ut <br> illo vitae
+                            architecto aliquid reiciendis. Beatae, tempore architecto?</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2 bg-overlay">
+                    <div class="content">
+                        <h3>Restaurant offers You</h3>
+                        <h1>This Best Testing Experience!</h1>
+                        <a href="#" class="btn resvBtn">Get a Reservation Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide3 bg-overlay">
+                    <div class="content">
+                        <h3>Hello, We are SUSHIC</h3>
+                        <h1>We serve Quality Food</h1>
+                        <a href="#menu" class="btn">View Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+
+        </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Start About -->
+    <section class="about sec" id="about">
+        <div class="container">
+            <div class="sec-head">
+                <span>Hello dear</span>
+                <h2>Welcome To <span>SUSHIC</span></h2>
+            </div>
+
+            <div class="content">
+                <div class="div-p">
+                    <p>Restaurant was the first restaurant to open in Morocco, the restaurant was designed with the
+                        history in wind we have created a soft industrial dining room, combined with an open kitchen,
+                        coffee take out bar and coffee roastery.</p>
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <span>1985</span>
+                        <h3>Grand Opening</h3>
+                        <p>Restaurant was opened in May 6, 1990, the interior was created by the most famous artists.
+                            Today our restaurant welcomes 250 people!</p>
+                    </div>
+                    <div class="box">
+                        <span>2005</span>
+                        <h3>Second Branch</h3>
+                        <p>Since the very first day, Restaurant was a gathering place for teachers, doctors, actors.
+                            Therefore we decided to open our second branch!</p>
+                    </div>
+                    <div class="box">
+                        <span>2013</span>
+                        <h3>Great Taste Award</h3>
+                        <p>Restaurant was and still remains not just a restaurant, but also a remarkable part of the
+                            culture. We are happy to announce thet we claim tate award</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Menu -->
+    <section class="sec-menu" id="menu">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural ingredients</span>
+                <h2>Menu</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <ul>
+                    <li class="active">Sushi</li>
+                    <li>Reis</li>
+                    <li>Ramen</li>
+                    <li>Gyoza</li>
+                </ul>
+            </div>
+
+            <div class="boxs">
+                <div class="box">
+                    <img src="./images/menu-1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€18.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/menu-2.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€21.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/menu-3.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€22.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/menu-4.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€19.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/menu-5.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€43.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/menu-6.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sushi</h3>
+                        <span>€39.99</span>
+                    </div>
+                    <p>Best plat Sushi</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Discrover Full Menu</a>
+        </div>
+    </section>
+    <!-- End Menu -->
+
+    <!-- Start clients -->
+    <section class="clients" id="clients">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Reviews</span>
+                <h2>Clients</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+
+        <div class="container">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Slide 1 -->
+                    <div class="slide active">
+                        <img src="./images/person1.jpg" alt="Ali">
+                        <div class="content">
+                            <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam Lorem, ipsum
+                                dolor
+                                sit amet consectetur adipisicing elit. Soluta, exercitationem!"</p>
+                            <div class="qoute">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <h3 class="name">Ali Boutouzzaze</h3>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <img src="./images/person2.jpg" alt="Farouk">
+                        <div class="content">
+                            <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum aliquam vero aut.
+                                Similique
+                                molestias magnam eum dolorem earum tenetur doloremque?"</p>
+                            <div class="qoute">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <h3 class="name">Farouk Live</h3>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <img src="./images/person3.jpg" alt="simo">
+                        <div class="content">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quas!"</p>
+                            <div class="qoute">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <h3 class="name">Simo Sdrati</h3>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="slide">
+                        <img src="./images/person4.jpg" alt="ayoub">
+                        <div class="content">
+                            <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, quibusdam Lorem, ipsum
+                                dolor
+                                sit amet consectetur adipisicing elit. Soluta, exercitationem!"</p>
+                            <div class="qoute">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <h3 class="name">Ayoub marloub</h3>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button type="button" class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End clients -->
+
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="sec-head">
+                <h2>Contact US</h2>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required name="name">
+                <input type="email" placeholder="Enter Your Email" required name="email">
+                <input type="text" placeholder="Enter Your Number" required name="number">
+                <textarea name="message" placeholder="Your Message..." id="" rows="6"></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <section class="footer" id="footer">
+        <div class="mg-box">
+            <div class="container">
+                <div class="links list">
+                    <h4>Follow Us</h4>
+                    <div class="box-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="text list">
+                    <h2>Sushic</h2>
+                    <p>Sushic has the perfect place to enjoy Japanese FOOD with excellent service, in comfortable atmospheric.</p>
+                </div>
+
+                <div class="news list">
+                    <h4>Newsletter</h4>
+                    <div class="input">
+                        <input type="text" placeholder="Subscribe our Newsletter">
+                        <i class="fa-shap fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Sushic, Morocco</p>
+                <p>&copy; 2026 SUSHIC, By <span>Ali Boutouzzaze</span></p>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
