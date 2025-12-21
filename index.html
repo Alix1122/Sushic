@@ -149,14 +149,15 @@
         <div class="container">
             <div class="content">
                 <ul>
-                    <li class="active">Sushi</li>
-                    <li>Reis</li>
-                    <li>Ramen</li>
-                    <li>Gyoza</li>
+                    <li class="tab-menu active" id="sushi" onclick="opentab('sushi-content', event)">Sushi</li>
+                    <li class="tab-menu" id="reis" onclick="opentab('reis-content', event)">Reis</li>
+                    <li class="tab-menu" id="ramen" onclick="opentab('ramen-content', event)">Ramen</li>
+                    <li class="tab-menu" id="gyoza" onclick="opentab('gyoza-content', event)">Gyoza</li>
                 </ul>
             </div>
 
-            <div class="boxs">
+            <!-- box Sushi -->
+            <div class="boxs active" id="sushi-content">
                 <div class="box">
                     <img src="./images/menu-1.jpg" alt="">
                     <div class="name-price">
@@ -211,6 +212,181 @@
                     <p>Best plat Sushi</p>
                 </div>
             </div>
+
+            <!-- box Reis -->
+            <div class="boxs" id="reis-content">
+                <div class="box">
+                    <img src="./images/reis1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€18.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/reis2.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€21.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/reis3.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€22.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/reis4.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€19.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/reis1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€43.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/reis1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Reis</h3>
+                        <span>€39.99</span>
+                    </div>
+                    <p>Best plat Reis</p>
+                </div>
+            </div>
+
+            <!-- box Ramen -->
+            <div class="boxs" id="ramen-content">
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€18.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€21.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€22.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€19.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€43.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/ramen1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Ramen</h3>
+                        <span>€39.99</span>
+                    </div>
+                    <p>Best plat Ramen</p>
+                </div>
+            </div>
+
+            <!-- box Gyoza -->
+            <div class="boxs" id="gyoza-content">
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€18.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€21.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€22.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€19.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€43.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+
+                <div class="box">
+                    <img src="./images/gyoza1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Gyoza</h3>
+                        <span>€39.99</span>
+                    </div>
+                    <p>Best plat Gyoza</p>
+                </div>
+            </div>
+
+
+
+
             <a href="#" class="btn">Discrover Full Menu</a>
         </div>
     </section>

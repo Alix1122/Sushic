@@ -173,3 +173,20 @@ dots.forEach((dots, index) => {
 // setInterval(function () {
 //     nextSlide();
 // }, 3000);
+
+// ==================================================================
+
+const tabMenus = document.getElementsByClassName("tab-menu");
+const boxs = document.getElementsByClassName("boxs");
+
+function opentab(tabname, event) {
+    for (let menu of tabMenus) {
+        menu.classList.remove("active");
+    }
+    for (let box of boxs) {
+        box.classList.remove("active");
+    }
+    event.currentTarget.classList.add("active");
+
+    document.getElementById(tabname).classList.add("active");
+}
